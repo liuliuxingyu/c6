@@ -100,6 +100,8 @@ int main()
         }
         if (code == 5)
         {
+            printf("tuichuchengxu\n");
+            break;
         }
     }
     return 0;
