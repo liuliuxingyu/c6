@@ -73,6 +73,30 @@ int main()
         }
         if (code == 4)
         {
+            printf("qingshurudangqianzuobiao:\n");
+            int x;
+            int y;
+            scanf("%d",&x);
+            scanf("%d",&y);
+            double min= 100000;
+            int carID=0;
+            
+            for(int i = 0; i < index; i++)
+            {
+                int dx=arr[i].x;
+                int dy=arr[i].y;
+                double l=sqrt(dx*dx+dy*dy);
+                if(min>l){
+                    min=l;
+                    carID=i;
+                }
+            }
+            printf("yonghudangqianweizhiyudi%dgechejvliwei%lf,shizuixiaojvli\n",carID+1,min);
+             char m;
+                scanf("%c", &m);
+                scanf("%c", &m);
+            
+            
         }
         if (code == 5)
         {
