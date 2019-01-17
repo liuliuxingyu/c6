@@ -59,6 +59,17 @@ int main()
         }
         if (code == 3)
         {
+            printf("suoyoucheliangruxia:\n");
+            
+            for(int i = 0; i < index; i++)
+            {
+                printf("di%dgecheliangdeweizhiwei(%d,%d)\n",i+1,arr[i].x,arr[i].y);
+            }
+            printf("dianjihuichejixu\n");
+             char m;
+                scanf("%c", &m);
+                scanf("%c", &m);
+            
         }
         if (code == 4)
         {
